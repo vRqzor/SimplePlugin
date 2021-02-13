@@ -1,0 +1,20 @@
+# Plugin Information
+name: SimplePlugin
+author: vRqzor
+main: vRqzor\SimplePlugin\Commands
+
+# Versions
+version: 1.0.0
+api: 3.0.0
+
+# Commands
+commands:
+ hello:
+  description: Say hello to yourself!
+  usage: Incorrect Usage!\nUsage: /hello
+  permission: hello.command
+  
+# Permissions
+permissions:
+ hello.command
+  default: true
